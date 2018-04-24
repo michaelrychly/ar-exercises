@@ -9,4 +9,6 @@ puts "----------"
 @store2 = Store.find(2);
 
 @store1.name = "My store"
+@store1.save
+
 puts "show the found: #{@store1.name}"
